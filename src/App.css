@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu{
+  margin-top: 2rem;
+  background-color: rgb(202, 229, 247);
+  border: 1px solid black;
+  width: 30rem;
+  box-shadow: 10px 10px 5px lightblue;
+ 
+}
+.div{
+ padding: 0 2rem;
+  display: flex;
+ 
+  margin: 1rem 0;
+  
+  font-size: 1rem;
+}
+.resim{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+.mail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem; 
+ 
+  margin-left: 2rem;
+}
+img{
+  border-radius: 50%;
+}
+.baslik{
+  margin-bottom: 5rem;
+}
+p{
+  margin-bottom: 1.7rem;
+}
+.age{
+ 
+  text-align: center;
+ 
+}
+.age1{
+  margin-bottom: 1rem;
+}
+.btn{
+  margin-top: 2rem;
+  background-color: lightskyblue;
+  border: none;
+  cursor: pointer;
+  
+  outline: none;
+  color:white;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 0.5rem;
+  
+  border-radius: 5px;
+}
+.btn:hover{
+  background-color: rgb(236, 236, 189);
+  color: black;
+}
+i{
+  font-size: 2rem;
+}
